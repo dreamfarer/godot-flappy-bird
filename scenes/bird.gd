@@ -7,7 +7,6 @@ var flying : bool = false
 var falling : bool = false
 const START_POS = Vector2(100, 400)
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	reset()
 
@@ -17,11 +16,9 @@ func reset():
 	position = START_POS
 	set_rotation(0)
 	
-	# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
 	if flying or falling:
 		velocity.y += GRAVITY * delta
-		#terminal velocity
 		if velocity.y > MAX_VEL:
 			velocity.y = MAX_VEL
 		if flying:
