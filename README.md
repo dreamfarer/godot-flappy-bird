@@ -1,31 +1,22 @@
-# Flappy Bird Clone - Godot 4.4
+# Flappy Bird Clone - Godot 4.5
 
-![Godot Version](https://img.shields.io/badge/Godot-4.4-blue) 
+![Godot Version](https://img.shields.io/badge/Godot-4.5-blue) 
 ![License](https://img.shields.io/badge/License-Unlicense-blue)
-![Release](https://img.shields.io/github/v/release/Hernandez712/FlappyBird) 
 
-A simple **Flappy Bird** clone built using **Godot 4.4**. This project features procedural level generation, smooth 2D gameplay, and responsive player controls. It’s a great starting point for learning game development or exploring endless runner mechanics.
+A simple **Flappy Bird** clone built using **Godot 4.5**, created for the **"Programming Languages and Paradigms"** seminar at **UZH** (2025). The project is used to introduce **GDScript** to other students.
 
-## Features
-
-- 🐦 **Endless gameplay** with procedural level generation.
-- 🎮 **Simple controls**: Tap to keep the bird flying.
-- 🏆 **High score tracking**.
-- 🔧 **Optimized performance** for smooth experience.
+## Prerequisites
+Download the Godot Engine from the [official website](https://godotengine.org/download/) or via [Steam](https://store.steampowered.com/app/404790/Godot_Engine/).
 
 ## Installation
-
-### Download the Executable
-
-1. Head over to the [Releases](https://github.com/Hernandez712/FlappyBird/releases/tag/FlappyBird) section.
-2. Download the `.exe` file for your system.
-3. Run the game and use the spacebar (or click) to keep the bird flying!
-
-### Run Locally
-
-To run the project on your local machine using Godot:
+To run the project locally using Godot:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Hernandez712/FlappyBird.git
+   git clone git@github.com:dreamfarer/godot-pacman-exercise.git
+   ```
+2. Open Godot, click **Import**, and select the project folder containing `project.godot`.
+
+## Credits
+The original Flappy Bird clone was created by [Hernandez712](https://github.com/Hernandez712). I adapted it for the purpose of introducing GDScript to other students.
