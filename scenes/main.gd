@@ -52,7 +52,7 @@ func start_game():
 	$PipeTimer.start()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	if game_running:
 		scroll += SCROLL_SPEED
 		#reset scroll
