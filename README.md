@@ -3,6 +3,9 @@
 ![Godot Version](https://img.shields.io/badge/Godot-4.5-blue) 
 ![License](https://img.shields.io/badge/License-Unlicense-blue)
 
+> [!WARNING]  
+> This is the exercise branch. Go [here](https://github.com/dreamfarer/godot-flappy-bird/tree/solution) for the solution.
+
 A simple **Flappy Bird** clone built using **Godot 4.5**, created for the **"Programming Languages and Paradigms"** seminar at **UZH** (2025). The project is used to introduce **GDScript** to other students.
 
 ## Prerequisites
