@@ -36,6 +36,10 @@ func _process(_delta):
 			scroll = 0
 		$Ground.position.x = -scroll
 
+func scored():
+	score += 1
+	$ScoreLabel.text = "SCORE: " + str(score)
+
 func stop_game():
 	$GameOver.show()
 	$Bird.flying = false
